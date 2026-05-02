@@ -1,0 +1,29 @@
+{
+  "name": "campus-notifications-microservice-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"require('./node_modules/next/dist/cli/next-dev.js').nextDev({ port: 3000, hostname: 'localhost' }, 'default', process.cwd())\"",
+    "build": "node node_modules/next/dist/cli/next-build.js",
+    "start": "node node_modules/next/dist/cli/next-start.js",
+    "lint": "node node_modules/next/dist/cli/next-lint.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.8",
+    "@mui/material": "^6.4.8",
+    "caniuse-lite": "^1.0.30001791",
+    "next": "^15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "eslint": "^9.26.0",
+    "eslint-config-next": "^15.3.2",
+    "typescript": "^5.8.3"
+  }
+}
